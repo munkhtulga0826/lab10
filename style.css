@@ -11,24 +11,24 @@ html {
 }
 
 main {
-    font-family: Ubuntu;
+    font-family: cursive;
 }
 
 button {
-    font-family: Ubuntu;
+    font-family: cursive;
 }
 
 .calculator-container {
-    max-width: 500px;
+    max-width: 510px;
     margin: auto;
     background-color: var(--primary-color);
     display: flex;
     flex-direction: row;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 
 .key-container {
@@ -41,23 +41,23 @@ button {
     background-color: var(--display-color);
     height: 100px;
     margin: 15px 0;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    font-size: 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-size: 25px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     color: white;
-    font-family: Ubuntu;
+    font-family: cursive;
     font-weight: normal;
 }
 
 .display-text {
-    padding-right: 15px;
+    padding-right: 20px;
 }
 
 .group {
@@ -69,16 +69,16 @@ button {
 
 .key {
     width: 100%;
-    margin: 10px 10px;
-    padding: 10px;
-    border-radius: 10px;
+    margin: 15px 15px;
+    padding: 15px;
+    border-radius: 15px;
     text-align: center;
     background-color: var(--secondary-color);
     color: white;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
     font-size: 18px;
 }
 
