@@ -21,8 +21,7 @@
 
                     </div>
                 </div>
-                <div class="group">
-                    <button id="btnClear" class="key">Scientific</button>
+                <div class="group">               
                     <button id="btnClear" class="key">C</button>
                 </div>
 
