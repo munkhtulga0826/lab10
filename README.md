@@ -70,10 +70,7 @@
                     break;
                 case '=':
                     Evaluate(expression);
-                    break;
-                case 'Scientific':
-                    alert("Coming Soon!, I guess. I hope");
-                    break;
+                    break;                
                 default:
                     expression += pressed;
                     break;
