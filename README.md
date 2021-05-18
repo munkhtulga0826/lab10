@@ -1,107 +1,14 @@
 # lab10
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Simple Calculator</title>
-
-<style>
-{
-    --primary-color: #2A2926;
-    --secondary-color: #403E38;
-    --display-color: #3B3933;
-    --yellow: #C6772A;
-}
-
-html {
-    font-size: 16px;
-}
-
-main {
-    font-family: Ubuntu;
-}
-
-button {
-    font-family: Ubuntu;
-}
-
-.calculator-container {
-    max-width: 500px;
-    margin: auto;
-    background-color: var(--primary-color);
-    display: flex;
-    flex-direction: row;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-}
-
-.key-container {
-    width: 95%;
-    margin: auto;
-}
-
-.display {
-    width: 100%;
-    background-color: var(--display-color);
-    height: 100px;
-    margin: 15px 0;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    color: white;
-    font-family: Ubuntu;
-    font-weight: normal;
-}
-
-.display-text {
-    padding-right: 15px;
-}
-
-.group {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.key {
-    width: 100%;
-    margin: 10px 10px;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    background-color: var(--secondary-color);
-    color: white;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    font-size: 18px;
-}
-
-#btnClear {
-    width: 50%;
-}
-
-#btnEqual {
-    background-color: var(--yellow);
-}
-
-@media only screen and (max-width: 410px) {
-    .key {
-        margin: 10px 5px;
-    }
-}
-</style>
 </head>
 
 <body>
